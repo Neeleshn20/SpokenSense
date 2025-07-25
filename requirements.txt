@@ -1,0 +1,21 @@
+# GUI
+PyQt5>=5.15.0
+
+# PDF Processing
+PyMuPDF>=1.19.0
+pdfplumber>=0.7.0
+
+# Text-to-Speech
+TTS>=0.10.0
+sounddevice>=0.4.4
+
+# AI and Embeddings
+sentence-transformers>=2.2.0
+chromadb>=0.3.0
+requests>=2.28.0
+
+# Configuration
+python-dotenv>=0.20.0
+
+# Utilities
+numpy>=1.20.0

@@ -1,0 +1,32 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Application data
+data/cache/
+data/embeddings/
+data/user_state.json
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
