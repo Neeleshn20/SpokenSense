@@ -1,21 +1,24 @@
-# GUI
+# Core GUI Framework
 PyQt5>=5.15.0
 
 # PDF Processing
-PyMuPDF>=1.19.0
+PyMuPDF>=1.19.0      # fitz
 pdfplumber>=0.7.0
 
 # Text-to-Speech
-TTS>=0.10.0
-sounddevice>=0.4.4
+TTS>=0.21.0,<0.23.0  # Coqui TTS (Specify a known working range)
+numpy>=1.21.0        # Required by TTS and sounddevice
+sounddevice>=0.4.0   # For audio playback
 
-# AI and Embeddings
+# AI Components - Embeddings, Vector Store, LLM Orchestration
 sentence-transformers>=2.2.0
-chromadb>=0.3.0
-requests>=2.28.0
+chromadb>=0.4.0,<0.5.0 # Specify a major version range for stability
+langchain>=0.1.0,<0.2.0 # For RAG pipeline (adjust version as needed)
+requests>=2.28.0     # For Ollama API calls (often included by langchain/others)
 
-# Configuration
-python-dotenv>=0.20.0
+# Configuration Management
+python-dotenv>=0.19.0
 
-# Utilities
-numpy>=1.20.0
+# (Optional, but good practice for development)
+# pytest>=7.0.0      # For unit tests
+# black>=22.0.0      # For code formatting
