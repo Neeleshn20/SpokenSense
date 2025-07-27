@@ -90,7 +90,7 @@ class CoquiTTS(QObject):
     def _initialize_tts(self):
         """Initialize the Coqui TTS engine."""
         try:
-            model_name = self.config.get('tts_model', 'tts_models/en/ljspeech/tacotron2-DDC')
+            model_name = self.config.get('tts_model', 'tts_models/en/ljspeech/vits')
             logger.info(f"Initializing Coqui TTS with model: {model_name}")
 
             # Initialize TTS with model_name as a named parameter
