@@ -182,13 +182,10 @@ SpokenSense/
 - **Text-to-Speech**: Coqui TTS
 - **Embedding**: SentenceTransformers (all-MiniLM-L6-v2)
 - **Vector DB**: ChromaDB
-- **LLM**: Ollama (Mistral, Nous Hermes, etc.)
+- **LLM**: Ollama(llama)
 - **Audio Playback**: sounddevice
 - **Config Management**: python-dotenv
 
-## License
-
-MIT
 
 ## Contributing
 
